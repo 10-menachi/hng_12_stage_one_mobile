@@ -1,16 +1,63 @@
 # hng_12_stage_one_mobile
 
-A new Flutter project.
+A Flutter project that provides cryptographic tools for encryption and decryption.
 
-## Getting Started
+### Prerequisites
 
-This project is a starting point for a Flutter application.
+- Flutter SDK: [Install Flutter](https://flutter.dev/docs/get-started/install)
+- Dart SDK: Included with Flutter
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/hng_12_stage_one_mobile.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd hng_12_stage_one_mobile
+   ```
+3. Get the dependencies:
+   ```sh
+   flutter pub get
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Running the App
+
+To run the app on an emulator or a physical device, use the following command:
+
+```sh
+flutter run
+```
+
+### Usage
+
+The app provides the following cryptographic tools:
+
+1. Encryption
+
+   - Enter the plaintext
+   - Enter the key
+   - Tap the "Encrypt" button to encrypt the plaintext
+
+2. Decryption
+
+   - Enter the ciphertext
+   - Enter the key
+   - Tap the "Decrypt" button to decrypt the ciphertext
+
+### Example
+
+1. Encryption
+
+   - Plaintext: `Hello, World!`
+   - Key: `key`
+
+   The encrypted text will be displayed in the output field.
+
+2. Decryption
+
+   - Ciphertext: `U2FsdGVkX1+3`
+   - Key: `key`
+
+   The decrypted text will be displayed in the output field.
